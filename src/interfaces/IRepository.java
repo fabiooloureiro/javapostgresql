@@ -16,5 +16,8 @@ public interface IRepository<T> {
 	void delete(Integer id) throws Exception; 
 	
 	List<T> findAll() throws Exception;
+	
+	T findById(Integer id) throws Exception;
+	
 
 }
